@@ -4,6 +4,7 @@ Abbiamo modellizzato un’ipotetica mappa e calcolare il percorso più breve per
 Per risolvere il problema abbiamo usato parallelamente PDDL e algoritmi di search, valutando le rispettive velocità di risoluzione.
 
 ## Algoritmi di SEARCH
+Per il corretto funzionamento dell'applicazione è necessario aver installato la libreria igraph, con la quale viene gestito il grafo che rappresenta la mappa.
 Inserire i file .py e i file .json in un'unica directory.
 
 Per far partire l'applicazione è necessario avviare il file 'main.py' e che sia presente un file di configurazione con i parametri del problema.
