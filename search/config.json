@@ -1,0 +1,1 @@
+{"init": "W", "goal": ["T", "A", "H", "C"], "size": 5, "world_type": "fixed", "solvers": ["DLFS", "IterativeSearch", "BFS", "BestFirstSearch"], "folder_path": "examples"}
