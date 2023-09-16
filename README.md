@@ -62,3 +62,8 @@ Nelle variabili globali
 - PATH: è il percorso in cui verrà salvato il file, specificare prima il percorso e terminare con il nome del file e l'estensione .pddl
 - MAPPA: è il percorso del file JSON rappresentante la mappa, da trasformare in rappresentazione pddl
 - CONFIG: è il percorso del file JSON di configurazione, da questo file vengono lette le informazioni sullo stato iniziale e sul goal
+
+### PDDL
+SCarica il solver ENHSP-20 --> https://sites.google.com/view/enhsp/ .
+Da riga di comando recati nella directory contente i file e usa il comando: Java -jar enhsp-20.jar -o domain.pddl -f problem.pddl -planner opt-hrmax.
+Sostituisci "domain" e "problem" con i nomi che hai dato ai file.
